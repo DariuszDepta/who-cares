@@ -27,8 +27,8 @@ Copy and paste the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file.
   |------|:--------------------------------------------------------------:|
   | 2025 | ![2025](https://img.shields.io/badge/Made_by-HUMAN-c51162.svg) |
 
-  > [!TIP]
-  > It would be nice to have a proxy endpoint that returns the same badge for all crates.
+> [!TIP]
+> It would be nice to have a proxy endpoint that returns the same badge for all crates.
 
 - Contributor Covenant
   ```text
