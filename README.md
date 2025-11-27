@@ -40,6 +40,23 @@
 > [!TIP]
 > It would be nice to have a proxy endpoint that returns the same badge for all crates.
 
+- Brought to you by [Engos Software](https://engos.de)
+  ```text
+  ⎯⎯⎯ 
+
+  [![Engos Software][es-badge]][es-url]
+  
+  [es-badge]: https://img.shields.io/badge/Brought_to_you_by-Engos_Software-336600.svg 
+  [es-url]: https://engos.de
+  ```
+
+  | Year |                                              Badge                                               |
+  |------|:------------------------------------------------------------------------------------------------:|
+  | 2025 | ![Engos Software 2025](https://img.shields.io/badge/Brought_to_you_by-Engos_Software-336600.svg) |
+  
+> [!TIP]
+> It would be nice to have a proxy endpoint that returns the same badge for all crates.
+ 
 - Contributor Covenant
   ```text
   [![cc][cc-badge]][cc-url]
