@@ -23,6 +23,10 @@ Copy and paste the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file.
   [mbh-url]: https://github.com/DariuszDepta
   ```
   
+  | Year |                         Badge                         |
+  |------|:-----------------------------------------------------:|
+  | 2025 | https://img.shields.io/badge/Made_by-HUMAN-c51162.svg |
+
 - Contributor Covenant
   ```text
   [![cc][cc-badge]][cc-url]
