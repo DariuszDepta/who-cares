@@ -1,12 +1,22 @@
 # Opinionated best practices
 
+## Licenses
+
+### open-source
+
+- Copy and paste the [LICENSE](./LICENSE) file.
+- Copy and paste the [LICENSE-MIT](./LICENSE-MIT) file.
+- Copy and paste the [NOTICE](./NOTICE) file.
+
+### BUSL
+
+- See: https://spdx.org/licenses/BUSL-1.1.html
+
 ## Code of conduct
 
-Copy and paste the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file.
+- Copy and paste the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file.
 
-## Rust crates
-
-### Badges
+## Badges
 
 - crates.io
   ```text
