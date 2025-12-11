@@ -100,3 +100,9 @@ Error compiling Wasm: Could not compile: Compilation error: Assembler failed fin
 
 Passes: 0, failures: 1
 ```
+
+So, there is an error during compilation (processor Apple Silicon M4):
+
+```text
+Error compiling Wasm: Could not compile: Compilation error: Assembler failed finalization with: ImpossibleRelocation(Dynamic(DynamicLabel(0)))
+```
