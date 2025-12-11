@@ -1,4 +1,4 @@
-# Opinionated best practices
+# who cares
 
 ## Licenses
 
