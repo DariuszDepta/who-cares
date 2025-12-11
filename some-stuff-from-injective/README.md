@@ -7,7 +7,7 @@
 Install the latest version of `cosmwasm-check` tool:
 
 ```shell
-$ cargo +1.88.0 install cosmwasm-check --force
+cargo +1.88.0 install cosmwasm-check --force
 ```
 
 Display installed version:
@@ -20,7 +20,7 @@ Contract checking 3.0.2
 ### Validate the contract
 
 ```shell
-$ cosmwasm-check some-stuff.wasm
+cosmwasm-check some-stuff.wasm
 ```
 
 Output:
@@ -37,7 +37,7 @@ Passes: 0, failures: 1
 ### Validate the contract again (with extended capability list)
 
 ```shell
-$ cosmwasm-check --available-capabilities "staking,stargate,cosmwasm_2_2,cosmwasm_1_3,cosmwasm_2_0,iterator,cosmwasm_1_2,cosmwasm_1_1,cosmwasm_2_1,cosmwasm_1_4,ibc2,injective" some-stuff.wasm
+cosmwasm-check --available-capabilities "staking,stargate,cosmwasm_2_2,cosmwasm_1_3,cosmwasm_2_0,iterator,cosmwasm_1_2,cosmwasm_1_1,cosmwasm_2_1,cosmwasm_1_4,ibc2,injective" some-stuff.wasm
 ```
 
 Output:
@@ -57,7 +57,7 @@ All contracts (1) passed checks!
 Install the latest version of `cosmwasm-check` tool:
 
 ```shell
-$ cargo +1.88.0 install cosmwasm-check --force
+cargo +1.88.0 install cosmwasm-check --force
 ```
 
 Display installed version:
@@ -70,7 +70,7 @@ Contract checking 3.0.2
 ### Validate the contract
 
 ```shell
-$ cosmwasm-check some-stuff.wasm
+cosmwasm-check some-stuff.wasm
 ```
 
 Output:
@@ -87,7 +87,7 @@ Passes: 0, failures: 1
 ### Validate the contract again (with extended capability list)
 
 ```shell
-$ cosmwasm-check --available-capabilities "staking,stargate,cosmwasm_2_2,cosmwasm_1_3,cosmwasm_2_0,iterator,cosmwasm_1_2,cosmwasm_1_1,cosmwasm_2_1,cosmwasm_1_4,ibc2,injective" some-stuff.wasm
+cosmwasm-check --available-capabilities "staking,stargate,cosmwasm_2_2,cosmwasm_1_3,cosmwasm_2_0,iterator,cosmwasm_1_2,cosmwasm_1_1,cosmwasm_2_1,cosmwasm_1_4,ibc2,injective" some-stuff.wasm
 ```
 
 Output:
