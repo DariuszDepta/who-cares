@@ -1,6 +1,8 @@
 # Some stuff from injective
 
-## Install `cosmwasm-check`
+## 1.88.0-x86_64-unknown-linux-gnu
+
+### Install `cosmwasm-check`
 
 Install the latest version of `cosmwasm-check` tool:
 
@@ -15,7 +17,7 @@ $ cosmwasm-check --version
 Contract checking 3.0.2
 ```
 
-Validate the contract:
+### Validate the contract
 
 ```shell
 $ cosmwasm-check some-stuff.wasm
@@ -30,4 +32,20 @@ some-stuff.wasm: failure
 Error during static Wasm validation: Wasm contract requires unavailable capabilities: {"injective"}
 
 Passes: 0, failures: 1
+```
+
+### Validate the contract again (with extended capability list)
+
+```shell
+$ cosmwasm-check --available-capabilities "staking,stargate,cosmwasm_2_2,cosmwasm_1_3,cosmwasm_2_0,iterator,cosmwasm_1_2,cosmwasm_1_1,cosmwasm_2_1,cosmwasm_1_4,ibc2,injective" some-stuff.wasm
+```
+
+Output:
+
+```text
+Available capabilities: {"cosmwasm_1_1", "iterator", "stargate", "cosmwasm_1_2", "cosmwasm_2_2", "injective", "cosmwasm_2_1", "ibc2", "staking", "cosmwasm_1_3", "cosmwasm_1_4", "cosmwasm_2_0"}
+
+some-stuff.wasm: pass
+
+All contracts (1) passed checks!
 ```
