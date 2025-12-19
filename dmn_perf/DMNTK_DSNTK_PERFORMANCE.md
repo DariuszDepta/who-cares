@@ -17,6 +17,8 @@ Tested versions:
 - dmntk: v0.3.7
 - dsntk: v0.2.0
 
+> All numbers are given in seconds.
+
 ### macOS
 
 macOS Tahoe 26.2, M4 Pro (12 cores), 64GB unified memory
@@ -43,7 +45,24 @@ macOS Tahoe 26.2, M4 Pro (12 cores), 64GB unified memory
 
 #### Intel Core® i5
 
-Intel Core® i5-8500T CPU@2.1GHz
+Intel Core® i5-8500T (6 cores), CPU@2.1GHz, 32GB RAM DDR4@2666MT/s
+
+|       [dmntk] |       [dsntk] |
+|--------------:|--------------:|
+|          89.0 |          93.0 |
+|          92.0 |          90.0 |
+|          89.0 |          91.0 |
+|          89.0 |          92.0 |
+|          89.0 |          91.0 |
+|          89.0 |          90.0 |
+|          92.0 |          90.0 |
+|          88.0 |          91.0 |
+|          90.0 |          92.0 |
+|          89.0 |          90.0 |
+| avg: **89.6** | avg: **91.0** |                                    
+
+A = [89.0,92.0,89.0,89.0,89.0,89.0,92.0,88.0,90.0,89.0].
+B = [93.0,90.0,91.0,92.0,91.0,90.0,90.0,91.0,92.0,90.0].
 
 
 ## Useful commands
@@ -58,4 +77,30 @@ Check processor details:
 
 ```shell
 lscpu
+```
+
+Clear swap disk:
+
+```shell
+sudo swapoff -a
+```
+
+```shell
+sudo swapon -a
+```
+
+A loop for executing tests quasi-automatically:
+
+```shell
+for i in $(seq 1 12);
+do
+  cargo install dmntk --force 2>&1 | grep Finished
+done
+```
+
+And some helpful Erlang code snippet:
+
+```erlang
+A = [89.0,92.0,89.0,89.0,89.0,89.0,92.0,88.0,90.0,89.0].
+AvgA = lists:foldl(fun(X, Sum) -> X + Sum end, 0, A) / length(A).
 ```
