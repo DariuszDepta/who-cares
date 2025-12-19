@@ -19,9 +19,7 @@ Tested versions:
 
 ### macOS
 
-macOS Tahoe 26.2
-M4 Pro (12 cores)
-64GB unified memory
+macOS Tahoe 26.2, M4 Pro (12 cores), 64GB unified memory
 
 |        [dmntk] |        [dsntk] |
 |---------------:|---------------:|
@@ -40,3 +38,24 @@ M4 Pro (12 cores)
 
 [dmntk]: https://crates.io/crates/dmntk
 [dsntk]: https://crates.io/crates/dsntk
+             
+### Fedora Linux 43
+
+#### Intel Core® i5
+
+Intel Core® i5-8500T CPU@2.1GHz
+
+
+## Useful commands
+
+Check memory details:
+
+```shell
+sudo dmidecode --type memory
+```
+
+Check processor details:
+
+```shell
+lscpu
+```
