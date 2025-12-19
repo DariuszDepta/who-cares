@@ -45,7 +45,7 @@ macOS Tahoe 26.2, M4 Pro (12 cores), 64GB unified memory
 
 #### Intel Core® i5
 
-Intel Core® i5-8500T (6 cores), CPU@2.1GHz, 32GB RAM DDR4@2666MT/s
+Intel Core® i5-8500T (6 cores), CPU@2.1GHz, 32GB DDR4@2666MT/s
 
 |       [dmntk] |       [dsntk] |
 |--------------:|--------------:|
@@ -60,6 +60,40 @@ Intel Core® i5-8500T (6 cores), CPU@2.1GHz, 32GB RAM DDR4@2666MT/s
 |          90.0 |          92.0 |
 |          89.0 |          90.0 |
 | avg: **89.6** | avg: **91.0** |                                    
+
+#### Intel Core® i7 (tbd)
+
+Intel Core® i7-6700 (4 cores), CPU@3.4GHz, 32GB DDR4@2133MT/s
+
+|      [dmntk] |      [dsntk] |
+|-------------:|-------------:|
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+| avg: **0.0** | avg: **0.0** |
+
+#### AMD Ryzen 7 (tbd)
+
+|      [dmntk] |      [dsntk] |
+|-------------:|-------------:|
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+|          0.0 |          0.0 |
+| avg: **0.0** | avg: **0.0** |
 
 ## Useful commands
 
