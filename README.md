@@ -32,14 +32,14 @@
 ```text
 [![mbh][mbh-badge]][mbh-url]
 
-[mbh-badge]: https://img.shields.io/badge/Made_by-HUMAN-c51162.svg
+[mbh-badge]: https://img.shields.io/badge/Made_by-HUMAN-D81B60.svg
 [mbh-url]: https://github.com/DariuszDepta
 ```
 
 | Year |                             Badge                              |
 |------|:--------------------------------------------------------------:|
 | 2026 | ![2026](https://img.shields.io/badge/Made_by-HUMAN-D81B60.svg) |
-| 2025 | ![2025](https://img.shields.io/badge/Made_by-HUMAN-c51162.svg) |
+| 2025 | ![2025](https://img.shields.io/badge/Made_by-HUMAN-C51162.svg) |
 
 > [!TIP]
 > It would be nice to have a proxy endpoint that returns the same badge for all crates.
@@ -68,6 +68,6 @@
 ```text
 [![cc][cc-badge]][cc-url]
 
-[cc-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+[cc-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4BAAAA.svg
 [cc-url]: https://github.com/[ORGANIZATION]/[REPOSITORY]/blob/main/CODE_OF_CONDUCT.md
 ``` 
