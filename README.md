@@ -56,7 +56,7 @@
 
 | Year |                                              Badge                                               |
 |------|:------------------------------------------------------------------------------------------------:|
-| 2025 | ![Engos Software 2025](https://img.shields.io/badge/Brought_to_you_by-Engos_Software-336600.svg) |
+| 2025 | ![Engos Software 2025](https://img.shields.io/badge/Brought_to_you_by-Engos_Software-227722.svg) |
 
 > [!TIP]
 > It would be nice to have a proxy endpoint that returns the same badge for all crates.
